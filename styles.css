@@ -1,0 +1,127 @@
+body,
+html {
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(197, 195, 193);
+}
+
+
+#main-doc {
+    display: flex;
+    gap: 5rem;
+}
+
+/* ============= MAIN-SECTION  ================== */
+.main-section {
+    margin-top: 3%;
+}
+
+header {
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+
+code {
+    display: block;
+    color: rgb(47, 48, 48);
+    background-color: rgba(116, 113, 113, 0.418);
+    font-family: 'Times New Roman', Times, serif;
+    width: 75%;
+    padding: 2% 4%;
+    border-left: rgb(226, 125, 43);
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+.container-mainsection{
+
+  
+    /* position: absolute; */
+   
+  
+}
+
+
+/* ul li::before {
+    content: "\2022";
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} */
+
+
+/* ============= NAV BAR  ================== */
+.container-navbar {
+    width: 40%;
+    min-width: 18%;
+}
+
+#navbar {
+    position: fixed;
+    background-color: rgb(134, 134, 134);
+    border-right: solid
+    
+}
+
+.navbar-list {
+    padding: 0;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+}
+.navbar-list a:hover{
+    color: rgb(201, 201, 201);
+}
+
+
+.navbar-list li {
+    border-top: solid;
+    border-width: thin;
+    list-style: none;
+    /* margin-top: 25px; */
+    padding: 25px;
+    align-items: center;
+
+}
+
+.navbar-list li:hover {
+    background-color: rgb(190, 140, 82);
+
+}
+
+.item {
+    border-style: solid;
+    width: 100%;
+}
+
+.navbar-header {
+    margin: 1.5%;
+    font-size: 42px;
+    color: rgb(148, 85, 3);
+    text-align: center;
+    /* border-bottom: solid; */
+}
+
+
+@media (max-width: 1200px){
+    #main-doc {
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar {
+        position: none;
+        background-color: rgb(134, 134, 134);
+        border-right: solid;
+        width: 100%;
+        
+        
+    }
+}
